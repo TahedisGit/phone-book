@@ -43,6 +43,19 @@
           </button>
         </div>
       </section>
+
+      <!-- show details modal -->
+      <!-- Open the modal using ID.showModal() method -->
+      <dialog id="showDetails" class="modal modal-bottom sm:modal-middle">
+        <form method="dialog" class="modal-box">
+          <h3 id="phone-name" class="font-bold text-3xl"></h3>
+          <div id="show-detail-container"></div>
+          <div class="modal-action">
+            <!-- if there is a button in form, it will close the modal -->
+            <button class="btn">Close</button>
+          </div>
+        </form>
+      </dialog>
     </main>
     <footer></footer>
     <script src="scripts/phone.js"></script>
